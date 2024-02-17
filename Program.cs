@@ -23,9 +23,13 @@
 
 // ShowNumbers(M,N);
 
-// Задача 2: Напишите программу вычисления 
-// функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+// // Задача 2: Напишите программу вычисления 
+// // функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
 
+// Console.Write("Enter n:");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter m:");
+// int m = Convert.ToInt32(Console.ReadLine());
 // int FindAckerman(int n, int m)
 // // A(n, m) => A(0, m); n = 0, 
 // {
@@ -33,40 +37,44 @@
 //     {
 //         return m + 1;
 //     }
-//     if (m == 0)
+//     else if (m == 0)
 //     {
-//         return n - 1;
+//         return FindAckerman(n - 1, 1);
+
+//     }
+//     else
+//     {
+//         return FindAckerman(n - 1,FindAckerman(n, m - 1));
 //     }
 // }
+// int acc = FindAckerman(n,  m);
+// Console.Write($"Функция Аккермана = {acc} ");
 
-// функция ack(n, m)
-//    если n = 0
-//      вернуть m + 1
-//    иначе, если m = 0
-//      вернуть ack (n - 1, 1)
-//    еще
-//      вернуть ack(n - 1, ack (n, m - 1))
+// // функция ack(n, m)
+// //    если n = 0
+// //      вернуть m + 1
+// //    иначе, если m = 0
+// //      вернуть ack (n - 1, 1)
+// //    еще
+// //      вернуть ack(n - 1, ack (n, m - 1))
 
 // Задача 3: Задайте произвольный массив.
 //  Выведете его элементы, начиная с конца. Использовать рекурсию, не использовать циклы.
 
 
-int[] arr = { 1, 2, 5, 0, 10, 34 };
-int size = arr.Length;
+// int[] arr = { 1, 2, 5, 0, 10, 34 };
+// int size = arr.Length;
 
-void ShowReverse(int[] arr, int size)
-{
-   int j = size - 1;
-    if (j == 0)
-    {
-        Console.Write(arr[j]);
-        return;
-    }
-    Console.Write(arr[j] + " ");
-    ShowReverse(arr[j]-1,  size);
-    }
+// void ShowReverse(int[] arr, int size)
+// {
+//    int j = size - 1;
+//     if (j == 0)
+//     {
+//         Console.Write(arr[j]);
+//     return;
+// }
 
-void ShowReverse(int v, int size)
-{
-    throw new NotImplementedException();
-}
+// Console.Write(arr[j] + " ");
+// ShowReverse(arr,size);
+// }
+

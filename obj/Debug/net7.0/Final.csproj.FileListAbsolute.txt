@@ -1,0 +1,15 @@
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.csproj.AssemblyReference.cache
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.AssemblyInfoInputs.cache
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.AssemblyInfo.cs
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.csproj.CoreCompileInputs.cache
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\bin\Debug\net7.0\Final.exe
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\bin\Debug\net7.0\Final.deps.json
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\bin\Debug\net7.0\Final.runtimeconfig.json
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\bin\Debug\net7.0\Final.dll
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\bin\Debug\net7.0\Final.pdb
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.dll
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\refint\Final.dll
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.pdb
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\Final.genruntimeconfig.cache
+D:\учеба\GB 2\Знакомство с языками програмирования\Final\obj\Debug\net7.0\ref\Final.dll

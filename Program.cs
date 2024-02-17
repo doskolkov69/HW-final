@@ -9,19 +9,19 @@
 // int M = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Enter First Number:");
 // int N = Convert.ToInt32(Console.ReadLine());
-// void ShowNumbers (int start, int end)
+// void ShowNumbers(int start, int end)
 // {
 //     // Base
-//     if(start == end)
+//     if (start == end)
 //     {
 //         Console.Write(start);
 //         return;
 //     }
 //     Console.Write(start + " ");
-//     ShowNumbers(start +1, end);
+//     ShowNumbers(start + 1, end);
 // }
 
-// ShowNumbers(M,N);
+// ShowNumbers(M, N);
 
 // // Задача 2: Напишите программу вычисления 
 // // функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
@@ -61,20 +61,25 @@
 // Задача 3: Задайте произвольный массив.
 //  Выведете его элементы, начиная с конца. Использовать рекурсию, не использовать циклы.
 
+using System.Linq.Expressions;
 
-// int[] arr = { 1, 2, 5, 0, 10, 34 };
-// int size = arr.Length;
+int[] arr = { 1, 2, 5, 0, 10, 34 };
 
-// void ShowReverse(int[] arr, int size)
-// {
-//    int j = size - 1;
-//     if (j == 0)
-//     {
-//         Console.Write(arr[j]);
-//     return;
-// }
+int size = arr.Length;
 
-// Console.Write(arr[j] + " ");
-// ShowReverse(arr,size);
-// }
+void ShowReverse(int[] arr, int size)
+{
+    int j = size - 1;
+    if (j == 0)
+    {
+        Console.Write(arr[j]);
+        return;
+    }
+    if (j > 0)
+    {
+        Console.Write(arr[j] + " ");
+        ShowReverse(arr, size - 1);
+    }
+}
+ShowReverse(arr, size);
 
